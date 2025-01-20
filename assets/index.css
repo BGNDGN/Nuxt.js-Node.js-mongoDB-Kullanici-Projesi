@@ -1,0 +1,160 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+.title {
+  text-align: center;
+  color: #2c3e50;
+}
+.user-list {
+  list-style-type: none;
+  padding: 0;
+}
+.user-item {
+  background-color: #f9f9f9;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.user-item button {
+    float: right;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px;
+}
+
+.deleteButton, .editButton {
+    background-color: white;
+}
+
+.deleteButton:hover {
+    background-color: rgb(255, 0, 0);
+    transition: 0.3s;
+}
+
+.editButton:hover {
+    background-color: greenyellow;
+    transition: 0.3s;
+}
+
+#newUserContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+#newUserMainContainer {
+    margin-left: -40px;
+}
+
+#newUserContainer input {
+    margin-bottom: 10px;
+}
+
+.nameText {
+    margin-left: 20px;
+}
+
+.ageText {
+    margin-left: 15px;
+}
+
+#newUserContainerButton {
+    width: 78%;
+    float: right;
+}
+
+#newUserContainerButton button:hover {
+    background-color: greenyellow;
+    transition: 0.3s;
+}
+
+#newUserContainerButton button {
+    background-color: aliceblue;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#editUserContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: antiquewhite;
+}
+
+#editUserMainContainer input {
+    margin-bottom: 10px;
+    margin-left: -15px;
+}
+
+.newUserName {
+  margin-left: -15px;
+  margin-right: 15px;
+}
+
+.newUserEmail{
+  margin-left: -35px;
+  margin-right: 15px;
+}
+
+.newUserAge {
+    margin-left: -21px;
+    margin-right: 15px;
+}
+
+#newUserButton {
+    width: 93%;
+    float: right;
+}
+
+#newUserButton button {
+    background-color: aliceblue;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#newUserButton button:hover {
+  background-color: greenyellow;
+  transition: 0.3s;
+}
+
+#velseUpdateUser {
+    background-color: antiquewhite;
+    border: 2px solid black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 40px 10px 70px; /* üst sağ alt sol */
+    height: 200px;
+    margin-top: 30px;
+    width: 81.5%;
+}
+
+#velseUpdateUser strong {
+    text-decoration: underline;
+}
+
+hr {
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
