@@ -24,7 +24,7 @@ async function initializeDatabase() {
     usersCollection = dataBase.collection('users');
     console.log("Veri tabanina basariyla baglanildi.");
   } catch (error) {
-    console.error("Veri tabanina bagalnirken bir hata olustu:", error);
+    console.error("Veri tabanina baglanirken bir hata olustu:", error);
     process.exit(1); 
   }
 }
