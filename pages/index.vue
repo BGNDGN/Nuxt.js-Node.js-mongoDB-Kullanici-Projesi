@@ -4,7 +4,7 @@
     <hr>
 
     <div v-if="users && users.length">
-      <ul class="user-list">a
+      <ul class="user-list">
         <li v-for="user in users" :key="user._id" class="user-item">
           <strong>Ad:</strong> {{ user.name }} <br />
           <strong>Email:</strong> {{ user.email }} <br />
