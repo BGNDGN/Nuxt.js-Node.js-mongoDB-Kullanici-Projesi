@@ -2,7 +2,7 @@ import express from 'express';
 import cors from 'cors';
 import { MongoClient, ObjectId } from 'mongodb';
 
-const uri = "mongodb+srv://burakgundogan:ekmek3456@burakgundogan.jubqn.mongodb.net/?retryWrites=true&w=majority&appName=burakgundogan";
+const uri = "mongodb+srv://burakgundogan:<>@burakgundogan.jubqn.mongodb.net/?retryWrites=true&w=majority&appName=burakgundogan";
 const client = new MongoClient(uri);
 
 const app = express();
